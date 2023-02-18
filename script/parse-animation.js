@@ -1,13 +1,17 @@
 const JSONStream = require("JSONStream")
 const fs = require("fs")
 const path = require("path")
-const glob = require("glob")
+const glob = require("glob-promise")
 
 const toAbsPath = (pth) => {
   return path.isAbsolute(pth) ? pth : path.resolve(".", pth)
 }
 
-const isLastItem = (array, currIdx) => array.length - 1 === currIdx
+const mkdirAll = async (dirs) => {
+  for (const dir of dirs) {
+    await fs.promises.mkdir(toAbsPath(dir), { recursive: true })
+  }
+}
 
 const deduplicate = (array) => {
   const set = new Set(array)
@@ -113,22 +117,14 @@ const parseProfile = (srcPath, destPath) => {
   })
 }
 
-const parseProfileForAllFiles = (srcDir, destDir) => {
-  glob(srcDir + "/**/*", (_, files) => {
-    const dirs = collectDirs(files).map((dir) => dir.replace(srcDir, destDir))
-    dirs.forEach((dir, idx) => {
-      const absdir = toAbsPath(dir)
-      fs.mkdir(absdir, { recursive: true }, () => {
-        if (isLastItem(dirs, idx)) {
-          files.forEach((file) => {
-            if (file.endsWith(".json")) {
-              const destFile = file.replace(srcDir, destDir)
-              parseProfile(file, destFile)
-            }
-          })
-        }
-      })
-    })
+const parseProfileForAllFiles = async (srcDir, destDir) => {
+  const files = await glob(srcDir + "/**/*")
+  const dirs = collectDirs(files).map((dir) => dir.replace(srcDir, destDir))
+  await mkdirAll(dirs)
+  files.forEach((file) => {
+    if (!file.endsWith(".json")) return
+    const destFile = file.replace(srcDir, destDir)
+    parseProfile(file, destFile)
   })
 }
 
