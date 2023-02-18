@@ -1,6 +1,23 @@
 const JSONStream = require("JSONStream")
 const fs = require("fs")
 const path = require("path")
+const glob = require("glob")
+
+const toAbsPath = (pth) => {
+  return path.isAbsolute(pth) ? pth : path.resolve(".", pth)
+}
+
+const isLastItem = (array, currIdx) => array.length - 1 === currIdx
+
+const deduplicate = (array) => {
+  const set = new Set(array)
+  return [...set]
+}
+
+const collectDirs = (files) => {
+  const dirs = files.map((file) => path.dirname(file))
+  return deduplicate(dirs)
+}
 
 const isDumpData = (name, eventType) => {
   if (eventType === "I") return false
@@ -97,13 +114,22 @@ const parseProfile = (srcPath, destPath) => {
 }
 
 const parseProfileForAllFiles = (srcDir, destDir) => {
-  fs.readdir(srcDir, (err, files) => {
-    files.forEach((file) => {
-      const filename = path.basename(file)
-      parseProfile(path.join(srcDir, filename), path.join(destDir, filename))
+  glob(srcDir + "/**/*", (_, files) => {
+    const dirs = collectDirs(files).map((dir) => dir.replace(srcDir, destDir))
+    dirs.forEach((dir, idx) => {
+      const absdir = toAbsPath(dir)
+      fs.mkdir(absdir, { recursive: true }, () => {
+        if (isLastItem(dirs, idx)) {
+          files.forEach((file) => {
+            if (file.endsWith(".json")) {
+              const destFile = file.replace(srcDir, destDir)
+              parseProfile(file, destFile)
+            }
+          })
+        }
+      })
     })
   })
 }
 
-parseProfileForAllFiles("./data/flow-bg", "./dump/flow-bg")
-parseProfileForAllFiles("./data/box-shadow", "./dump/box-shadow")
+parseProfileForAllFiles("./data/animation", "./dump/animation")

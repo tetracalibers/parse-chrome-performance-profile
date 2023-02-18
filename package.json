@@ -5,6 +5,7 @@
     "parse:animation": "node script/parse-animation.js"
   },
   "dependencies": {
-    "JSONStream": "^1.3.5"
+    "JSONStream": "^1.3.5",
+    "glob": "^8.1.0"
   }
 }
