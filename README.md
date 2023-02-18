@@ -28,7 +28,7 @@ Chromeのパフォーマンス計測で取得できるProfile.jsonを解析し�
 1. `data/animation`配下にProfile.jsonを設置
 2. （初回のみ）`yarn`で依存をインストール
 3. `yarn parse:animation`を実行
-4. `dump`内に解析結果が出力される
+4. `dump/animation`内に解析結果が出力される
 
 ### 使用上の注意
 
