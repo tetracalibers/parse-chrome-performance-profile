@@ -12,6 +12,11 @@ Chromeのパフォーマンス計測で取得できるProfile.jsonを解析し�
 
 アニメーション記録が含まれるProfile.jsonを解析し、アニメーションに伴う再レンダリング時間を抽出するスクリプト。
 
+### 実際の測定結果例
+
+- [背景スライドアニメーションの比較](/dump/animation/flow-bg)
+- [box-shadowアニメーションの比較](/dump/animation/box-shadow)
+
 ### Profile.jsonの取得方法
 
 1. 計測したいアニメーションを実行するページをChromeで開く
