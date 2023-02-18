@@ -1,0 +1,72 @@
+{
+  "timeline": [
+    {
+      "name": "BEGIN Animation",
+      "timestamp": 9980855830
+    },
+    {
+      "name": "Paint",
+      "duration": 107,
+      "timestamp": 9980867325
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 51,
+      "timestamp": 9980867697
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 33,
+      "timestamp": 9980884382
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 12,
+      "timestamp": 9980900883
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 61,
+      "timestamp": 9981335377
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 8,
+      "timestamp": 9981350876
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 9,
+      "timestamp": 9981368105
+    },
+    {
+      "name": "END Animation",
+      "timestamp": 9981384401
+    }
+  ],
+  "meta": [
+    {
+      "name": "Layout",
+      "duration": 0,
+      "percent": 0
+    },
+    {
+      "name": "Paint",
+      "duration": 107,
+      "percent": 0.02024325965669702
+    },
+    {
+      "name": "Composite",
+      "duration": 174,
+      "percent": 0.0329189456099559
+    },
+    {
+      "name": "TOTAL ReRender",
+      "duration": 281
+    },
+    {
+      "name": "Animation",
+      "duration": 528571
+    }
+  ]
+}

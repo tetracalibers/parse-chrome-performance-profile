@@ -17,6 +17,7 @@ Chromeのパフォーマンス計測で取得できるProfile.jsonを解析し�
 - [背景スライドアニメーションの比較](/dump/animation/flow-bg)
 - [box-shadowアニメーションの比較](/dump/animation/box-shadow)
 - [blurアニメーションの比較](/dump/animation/blur)
+- [移動アニメーションの比較](/dump/animation/move)
 
 ### Profile.jsonの取得方法
 
