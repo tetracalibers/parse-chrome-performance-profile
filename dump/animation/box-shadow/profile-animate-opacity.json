@@ -1,0 +1,112 @@
+{
+  "timeline": [
+    {
+      "name": "BEGIN Animation",
+      "timestamp": 207116525071
+    },
+    {
+      "name": "Paint",
+      "duration": 148,
+      "timestamp": 207116525131
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 107,
+      "timestamp": 207116525386
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 54,
+      "timestamp": 207116541934
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 27,
+      "timestamp": 207116575981
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 24,
+      "timestamp": 207116591001
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 28,
+      "timestamp": 207116609581
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 24,
+      "timestamp": 207116625915
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 16,
+      "timestamp": 207116641299
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 48,
+      "timestamp": 207116659057
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 19,
+      "timestamp": 207116674938
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 22,
+      "timestamp": 207116691611
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 18,
+      "timestamp": 207116708433
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 18,
+      "timestamp": 207116725172
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 61,
+      "timestamp": 207117008277
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 26,
+      "timestamp": 207117024995
+    },
+    {
+      "name": "END Animation",
+      "timestamp": 207117041699
+    }
+  ],
+  "meta": [
+    {
+      "name": "Layout",
+      "duration": 0,
+      "percent": 0
+    },
+    {
+      "name": "Paint",
+      "duration": 148,
+      "percent": 0.028647305217680805
+    },
+    {
+      "name": "Composite",
+      "duration": 492,
+      "percent": 0.09523293356147944
+    },
+    {
+      "name": "TOTAL ReRender",
+      "duration": 640
+    },
+    {
+      "name": "Animation",
+      "duration": 516628
+    }
+  ]
+}

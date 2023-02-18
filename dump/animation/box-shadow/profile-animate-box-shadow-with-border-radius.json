@@ -1,0 +1,347 @@
+{
+  "timeline": [
+    {
+      "name": "BEGIN Animation",
+      "timestamp": 207193476476
+    },
+    {
+      "name": "Paint",
+      "duration": 164,
+      "timestamp": 207193476551
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 68,
+      "timestamp": 207193477417
+    },
+    {
+      "name": "Paint",
+      "duration": 170,
+      "timestamp": 207193492311
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 57,
+      "timestamp": 207193493205
+    },
+    {
+      "name": "Paint",
+      "duration": 141,
+      "timestamp": 207193509471
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 48,
+      "timestamp": 207193510200
+    },
+    {
+      "name": "Paint",
+      "duration": 188,
+      "timestamp": 207193524725
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 98,
+      "timestamp": 207193526015
+    },
+    {
+      "name": "Paint",
+      "duration": 149,
+      "timestamp": 207193542285
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 81,
+      "timestamp": 207193543358
+    },
+    {
+      "name": "Paint",
+      "duration": 151,
+      "timestamp": 207193558896
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 64,
+      "timestamp": 207193559706
+    },
+    {
+      "name": "Paint",
+      "duration": 166,
+      "timestamp": 207193575410
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 59,
+      "timestamp": 207193576314
+    },
+    {
+      "name": "Paint",
+      "duration": 446,
+      "timestamp": 207193593265
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 97,
+      "timestamp": 207193594355
+    },
+    {
+      "name": "Paint",
+      "duration": 168,
+      "timestamp": 207193609147
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 95,
+      "timestamp": 207193610004
+    },
+    {
+      "name": "Paint",
+      "duration": 155,
+      "timestamp": 207193624894
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 59,
+      "timestamp": 207193625543
+    },
+    {
+      "name": "Paint",
+      "duration": 166,
+      "timestamp": 207193643196
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 90,
+      "timestamp": 207193643966
+    },
+    {
+      "name": "Paint",
+      "duration": 150,
+      "timestamp": 207193658789
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 50,
+      "timestamp": 207193659422
+    },
+    {
+      "name": "Paint",
+      "duration": 148,
+      "timestamp": 207193675886
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 51,
+      "timestamp": 207193676511
+    },
+    {
+      "name": "Paint",
+      "duration": 150,
+      "timestamp": 207193691999
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 73,
+      "timestamp": 207193692638
+    },
+    {
+      "name": "Paint",
+      "duration": 143,
+      "timestamp": 207193709025
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 77,
+      "timestamp": 207193709630
+    },
+    {
+      "name": "Paint",
+      "duration": 145,
+      "timestamp": 207193726062
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 82,
+      "timestamp": 207193726702
+    },
+    {
+      "name": "Paint",
+      "duration": 159,
+      "timestamp": 207193742095
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 75,
+      "timestamp": 207193742780
+    },
+    {
+      "name": "Paint",
+      "duration": 144,
+      "timestamp": 207193758515
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 45,
+      "timestamp": 207193759135
+    },
+    {
+      "name": "Paint",
+      "duration": 145,
+      "timestamp": 207193775329
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 49,
+      "timestamp": 207193775943
+    },
+    {
+      "name": "Paint",
+      "duration": 143,
+      "timestamp": 207193792218
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 60,
+      "timestamp": 207193792830
+    },
+    {
+      "name": "Paint",
+      "duration": 144,
+      "timestamp": 207193808657
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 82,
+      "timestamp": 207193809363
+    },
+    {
+      "name": "Paint",
+      "duration": 139,
+      "timestamp": 207193826006
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 63,
+      "timestamp": 207193826621
+    },
+    {
+      "name": "Paint",
+      "duration": 138,
+      "timestamp": 207193841710
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 47,
+      "timestamp": 207193842292
+    },
+    {
+      "name": "Paint",
+      "duration": 129,
+      "timestamp": 207193858694
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 46,
+      "timestamp": 207193859255
+    },
+    {
+      "name": "Paint",
+      "duration": 133,
+      "timestamp": 207193875431
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 40,
+      "timestamp": 207193875979
+    },
+    {
+      "name": "Paint",
+      "duration": 116,
+      "timestamp": 207193892914
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 43,
+      "timestamp": 207193893435
+    },
+    {
+      "name": "Paint",
+      "duration": 130,
+      "timestamp": 207193909540
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 51,
+      "timestamp": 207193910104
+    },
+    {
+      "name": "Paint",
+      "duration": 125,
+      "timestamp": 207193925342
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 66,
+      "timestamp": 207193925892
+    },
+    {
+      "name": "Paint",
+      "duration": 132,
+      "timestamp": 207193943106
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 47,
+      "timestamp": 207193943679
+    },
+    {
+      "name": "Paint",
+      "duration": 124,
+      "timestamp": 207193957851
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 43,
+      "timestamp": 207193958402
+    },
+    {
+      "name": "Paint",
+      "duration": 122,
+      "timestamp": 207193975393
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 73,
+      "timestamp": 207193975970
+    },
+    {
+      "name": "END Animation",
+      "timestamp": 207193991996
+    }
+  ],
+  "meta": [
+    {
+      "name": "Layout",
+      "duration": 0,
+      "percent": 0
+    },
+    {
+      "name": "Paint",
+      "duration": 4823,
+      "percent": 0.9355602110490379
+    },
+    {
+      "name": "Composite",
+      "duration": 1979,
+      "percent": 0.38388423339540656
+    },
+    {
+      "name": "TOTAL ReRender",
+      "duration": 6802
+    },
+    {
+      "name": "Animation",
+      "duration": 515520
+    }
+  ]
+}

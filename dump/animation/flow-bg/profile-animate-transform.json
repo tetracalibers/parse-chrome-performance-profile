@@ -1,0 +1,107 @@
+{
+  "timeline": [
+    {
+      "name": "BEGIN Animation",
+      "timestamp": 202240502213
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 79,
+      "timestamp": 202240502696
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 210,
+      "timestamp": 202240519863
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 50,
+      "timestamp": 202240536198
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 45,
+      "timestamp": 202240552976
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 39,
+      "timestamp": 202240568399
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 29,
+      "timestamp": 202240585406
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 39,
+      "timestamp": 202240603208
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 37,
+      "timestamp": 202240618298
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 54,
+      "timestamp": 202240635642
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 57,
+      "timestamp": 202240685833
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 175,
+      "timestamp": 202240836223
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 161,
+      "timestamp": 202240969599
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 138,
+      "timestamp": 202240986592
+    },
+    {
+      "name": "CompositeLayers",
+      "duration": 138,
+      "timestamp": 202241003353
+    },
+    {
+      "name": "END Animation",
+      "timestamp": 202241019941
+    }
+  ],
+  "meta": [
+    {
+      "name": "Layout",
+      "duration": 0,
+      "percent": 0
+    },
+    {
+      "name": "Paint",
+      "duration": 0,
+      "percent": 0
+    },
+    {
+      "name": "Composite",
+      "duration": 1251,
+      "percent": 0.24163267198219915
+    },
+    {
+      "name": "TOTAL ReRender",
+      "duration": 1251
+    },
+    {
+      "name": "Animation",
+      "duration": 517728
+    }
+  ]
+}
