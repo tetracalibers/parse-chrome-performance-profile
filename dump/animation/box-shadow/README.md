@@ -8,11 +8,13 @@ https://tetracalibers.github.io/web-feature-note/demo/compare-pattern/box-shadow
 
 ### 比較条件
 
-次の4つの条件を比較する。
+次の6つの条件を比較する。
 
-- box-shadow（ぼかしあり）を直接アニメーション
-- box-shadow（ぼかしあり）を直接アニメーション + border-radius指定
-- box-shadow（ぼかしなし）を直接アニメーション
+- box-shadow（ぼかし半径10px）を直接アニメーション
+- box-shadow（ぼかし半径10px）を直接アニメーション + border-radius指定
+- clip-pathのinsetをアニメーション
+- clip-pathのinsetとbox-shadowのspreadをアニメーション
+- box-shadow（ぼかし半径0px）を直接アニメーション
 - box-shadowを適用した擬似要素のopacityをアニメーション
 
 ### 共通条件
@@ -30,7 +32,9 @@ https://tetracalibers.github.io/web-feature-note/demo/compare-pattern/box-shadow
 
 | 条件 | Layout | Paint | Composite | TOTAL |
 | --- | --- | --- | --- | --- | 
-| box-shadow + border-radius | 0 | 4823 | 1979 | 6802 |
+| clip-path | 0 | 6226 | 1841 | 8067 |
+| box-shadow + border-radius | 0 | 5669 | 1652 | 7321 |
+| clip-path + spread | 0 | 5617 | 1457 | 7074 |
 | box-shadow | 0 | 4536 | 2102 | 6638 |
 | box-shadow（ぼかしなし） | 0 | 4290 | 1848 | 6138 |
 | opacity | 0 | 148 | 492 | 640 |
